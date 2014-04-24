@@ -19,7 +19,7 @@ $app->get('/tipo/', 'obtenerTiposCfdi');
 function obtenerTiposCfdi(){
 	$request = \Slim\Slim::getInstance()->request();
 	$usuario = json_decode($request->getBody());
-	$sql = "SELECT * FROM cat_tipo_cfdi";
+	$sql = "SELECT * FROM cat_tipo_cfdi WHERE NOT id_tipo_cfdi IN(10)";
 	try {
 		$db = getConnection();
 		$stmt = $db->query($sql);  

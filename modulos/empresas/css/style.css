@@ -1,0 +1,77 @@
+
+
+body{
+  padding: 4px;
+}
+
+
+.seleccionado{
+ /* color: #404040; */
+  background-color: #EEEEEE;
+}
+
+.activo{
+  position: relative;
+  float: right;
+  color: #2BB959;
+  padding: 2px;
+  margin: 2px 5px 2px 2px;
+
+}
+
+
+.editarEmisor{
+  position: relative;
+  float: right;
+  padding: 2px;
+  margin: 2px 5px 2px 2px;
+}
+
+
+.inactivo{
+  position: relative;
+  float: right;
+  color: #F00000;
+  padding: 2px;
+  margin: 2px 5px 2px 2px;
+
+}
+
+/*******************************************/
+.list-group-item{
+	cursor: pointer !important;
+}
+
+.btn{
+	border-radius: 0px !important;
+}
+
+.form-control{
+	border-radius: 0px !important;	
+}
+
+.list-group{
+	border-radius: 0px !important;		
+}
+
+.panel{
+	border-radius: 0px !important;		
+
+}
+.panel-heading {
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+}
+/**********************************************/
+
+.fa-minus{
+	cursor: pointer !important;
+
+}
+.fa-times{
+	cursor: pointer !important;
+}
+
+.fa-external-link{
+  cursor: pointer !important;
+}

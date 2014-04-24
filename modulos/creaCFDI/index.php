@@ -28,7 +28,7 @@
 	      <div class="row"> 
 	        <div class="col-md-6">
 	          	<label>Seleccione Tipo de CFDI:</label>	
-				 <select name="selTipoCfdi" class="form-control" id="tiposcomprobante">
+				 <select  class="form-control" id="selTipoCfdi">
 				</select>
 	        </div>
 	        <div class="col-md-6">

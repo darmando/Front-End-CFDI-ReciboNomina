@@ -1,11 +1,13 @@
 var tipocfdiURL = "api/tipo";
 $(document).ready(function(){
 
-//llenarSelectTipoCFDI();
+llenarSelectTipoCFDI();
 
 });
 
+
 function llenarSelectTipoCFDI(){
+
 	$.ajax({
 		type: 'GET',
 		url: tipocfdiURL,
@@ -20,4 +22,5 @@ function llenarSelectTipoCFDI(){
 	
 		}
 	});
+
 }

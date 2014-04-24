@@ -4,27 +4,29 @@ body{
   padding: 4px;
 }
 
-
+.divMetroUI{
+  cursor: pointer !important;
+}
 
 /*******************************************/
 .list-group-item{
-	cursor: pointer !important;
+  cursor: pointer !important;
 }
 
 .btn{
-	border-radius: 0px !important;
+  border-radius: 0px !important;
 }
 
 .form-control{
-	border-radius: 0px !important;	
+  border-radius: 0px !important;  
 }
 
 .list-group{
-	border-radius: 0px !important;		
+  border-radius: 0px !important;    
 }
 
 .panel{
-	border-radius: 0px !important;		
+  border-radius: 0px !important;    
 
 }
 .panel-heading {
