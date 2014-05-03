@@ -1,0 +1,43 @@
+<?php
+  //  require '../../../../php/seguridad.php';
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Login</title>
+</head>
+	<meta charset='utf-8'> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/pnotify.custom.min.css">
+	<link rel="stylesheet" type="text/css" href="modulos/login/css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<body>
+  <?php
+ // mysql_connect("127.0.0.1:3306","root","") or die ("No se pudo conectar a la Base de datos");
+     // ob_start();
+   //   require 'php/connector.php';
+  ?>
+
+<div class="container">
+	<div class="login-container">
+            <div id="output"></div>
+            <div class="avatar"></div>
+            <div class="form-box">
+                    <input  id="txtUsuario" type="text" placeholder="Usuario">
+                    <input  id="txtContrasena" type="password" placeholder="Contraseña">
+                    <button class="btn btn-info btn-block login" id="btnEntrar">Entrar</button>
+            </div>
+        </div>
+        
+</div> 
+
+<!-- FIN DE MI CONTENIDO -->
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+	<script src="modulos/login/js/main.js"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript" ></script>
+  <script src="js/pnotify.custom.min.js" type="text/javascript" ></script>
+</body>
+</html>
